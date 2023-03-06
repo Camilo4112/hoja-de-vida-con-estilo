@@ -1,0 +1,122 @@
+.section1:first-of-type {
+    margin-right: 40px; /* Agrega un margen derecho de 30px a la primera sección */
+  }
+  
+.section1 {
+    height: 910px;
+    width: 340px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    background: linear-gradient(to bottom, #FFFFFF, #00FFFF);
+  }
+  
+.contenedor {
+	display: flex;
+	align-items: center;
+    
+}
+
+.contenedor img {
+	margin-right: 20px;
+}
+
+.contenedor p.texto {
+	padding-left: 20px;
+}
+
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.enlace {
+	font-family: Arial, sans-serif;
+	color: #FF0000;
+}
+  
+.stars {
+    display: inline-block;
+    font-size: 0;
+  }
+  
+  .stars span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url("https://img.icons8.com/officel/80/000000/star--v1.png") no-repeat 0 0;
+    background-size: contain;
+  }
+  
+  .stars span:last-child {
+    margin-right: 0;
+  }
+  
+  .gold {
+    background-color: gold;
+  }
+  
+/*barra de estrellas*/
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    display: inline-block;
+    font-size: 0;
+  }
+  
+  .stars span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url("https://img.icons8.com/officel/80/000000/star--v1.png") no-repeat 0 0;
+    background-size: contain;
+  }
+  
+  .stars span:last-child {
+    margin-right: 0;
+  }
+  
+  .complete {
+    background-color: gold;
+  }
+
+/*inicia la 2 section*/
+.section2 {
+    background: linear-gradient(to bottom, #00FFFF, #FFFFFF);
+
+
+    background: linear-gradient(#00FFFF, #FFFFFF);
+
+  }
+  
+  .texto-izquierdo {
+    float: left; /* Hace que el elemento flote a la izquierda */
+    width: 40%; /* Establece el ancho del elemento al 50% del contenedor */
+    text-align: center;
+  }
+  
+  .texto-derecho {
+    float: right; /* Hace que el elemento flote a la derecha */
+    width: 30%; /* Establece el ancho del elemento al 50% del contenedor */
+    text-align: right; /* Establece el texto a la derecha del elemento */
+  }
+  
